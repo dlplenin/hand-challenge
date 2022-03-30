@@ -1,3 +1,4 @@
+// modificación del lenguaje esotérico Brainfuck
 const fs = require('fs');
 
 const instructions = [...fs.readFileSync(process.argv[2] || 'input.hand', 'utf-8')];
